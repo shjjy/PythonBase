@@ -1,0 +1,14 @@
+>>> from main import _doctest_average
+
+>>> _doctest_average([20, 30, 70])
+40.0
+>>> _doctest_average([10, 20, 30])
+20.0
+>>> _doctest_average([5, 5, 5, 5])
+5.0
+>>> _doctest_average([-10, 0, 10])
+0.0
+>>> _doctest_average([100, 200, 300, 400])
+250.0
+>>> _doctest_average([1])
+1.0
